@@ -3,11 +3,12 @@ plugins {
 }
 
 android {
+    namespace "com.weird.ringtonekeeper"
     compileSdk 34
 
     defaultConfig {
         applicationId "com.weird.ringtonekeeper"
-        minSdk 26               // Android 8.0+ (your phone is Android 11)
+        minSdk 26
         targetSdk 34
         versionCode 1
         versionName "1.0"
