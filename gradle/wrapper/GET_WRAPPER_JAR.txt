@@ -1,0 +1,5 @@
+NOTE FOR USER:
+This folder needs the real gradle-wrapper.jar binary file.
+It cannot be created as plain text.
+
+Follow the instructions below to get it — it takes 30 seconds.

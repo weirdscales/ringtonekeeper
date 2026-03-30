@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:gravity="center_horizontal"
+    android:background="#0D0D0D">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RingtoneKeeper"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forces your ringtone every 1 hour"
+        android:textSize="13sp"
+        android:textColor="#888888"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Selected Ringtone Display -->
+    <TextView
+        android:id="@+id/selectedRingtoneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected: none"
+        android:textSize="14sp"
+        android:textColor="#BBBBBB"
+        android:background="#1A1A1A"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Pick Ringtone -->
+    <Button
+        android:id="@+id/pickRingtoneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="PICK RINGTONE"
+        android:textColor="#0D0D0D"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Apply Now -->
+    <Button
+        android:id="@+id/applyNowBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="APPLY NOW"
+        android:textColor="#0D0D0D"
+        android:backgroundTint="#C8FF00"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Start Guardian -->
+    <Button
+        android:id="@+id/startServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="START GUARDIAN (every 1h)"
+        android:textColor="#0D0D0D"
+        android:backgroundTint="#00E5FF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Stop Guardian -->
+    <Button
+        android:id="@+id/stopServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="STOP GUARDIAN"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF3D3D"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: ○ STOPPED"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#1A1A1A" />
+
+</LinearLayout>
